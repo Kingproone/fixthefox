@@ -19,6 +19,6 @@ NOTES:
 
  - a. [The original reddit thread of the fix.](https://www.reddit.com/r/kde/comments/osjt3p/firefox_wayland_pip_workaround_or_how_i_learned/)
 
- - b. For me the "Keep above other windows" line disappears after setting it and reopening the config window.
+ - b. For me the "Keep above other windows" line disappeared after setting it and reopening the config window. After going in and out of PiP a few times and redoing the setup it stuck around.
 
 </details>
