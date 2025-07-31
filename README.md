@@ -11,12 +11,11 @@
 3. Click "Add Property..." again and this time select "Keep above other windows". The dropdown in the newly added row should be set to "Apply Initially". Select the "Yes" radio button if it isn't already.
 
 4. Click "OK". That's it. No more manually setting Keep Above every time you open a PiP.
-<br/>
 
 - NOTES
 
-a. [The original reddit thread of the fix.](https://www.reddit.com/r/kde/comments/osjt3p/firefox_wayland_pip_workaround_or_how_i_learned/)
+  - a. [The original reddit thread of the fix.](https://www.reddit.com/r/kde/comments/osjt3p/firefox_wayland_pip_workaround_or_how_i_learned/)
 
-b. For me the "Keep above other windows" line disappears after setting it and reopening the config window.
+  - b. For me the "Keep above other windows" line disappears after setting it and reopening the config window.
 
- </details>
+</details>
