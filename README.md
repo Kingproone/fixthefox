@@ -1,7 +1,7 @@
 # Fix The Fox!
 
 > [!IMPORTANT]
-> Use a fork of firefox that does a lot of privacy/security enhancements out of the box like [librewolf](https://librewolf.net/), [mullvad](https://mullvad.net/en/browser) or [tor](https://www.torproject.org/download/).
+> Use a fork of firefox that does a lot of privacy/security enhancements out of the box, like [librewolf](https://librewolf.net/), [mullvad](https://mullvad.net/en/browser) or [tor](https://www.torproject.org/download/) for the desktop. [Ironfox](https://gitlab.com/ironfox-oss/IronFox) or [tor](https://www.torproject.org/download/#android) for Android.
 
 <details>
 
