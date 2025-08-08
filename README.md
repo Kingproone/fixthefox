@@ -7,7 +7,7 @@
 
 **<summary> Clean up the default UI! </summary>**
 
-This takes 1 minute to do and will give 6,8% plus usable space on screen
+This takes 1 minute to do and will give ```6,8%``` plus usable space on screen
 
 <details>
 
@@ -24,6 +24,14 @@ This takes 1 minute to do and will give 6,8% plus usable space on screen
 ![clean-ff](https://github.com/user-attachments/assets/55ec9588-cae9-4350-9205-7ce9f8b02e42)
 
 </details>
+
+</details>
+
+<details>
+
+**<summary> Icons for context menus. </summary>**
+
+https://github.com/black7375/Firefox-UI-Fix
 
 </details>
 
@@ -51,21 +59,29 @@ NOTES:
 
 <details>
 
-**<summary> Tablet UI </summary>**
+**<summary> Remove search icon drop down </summary>**
 
-1. Open about:config
-  
-2. Search for: browser.uidensity
- 
-3. Set it to: 1
+It hides the lock and shield icon to check site info
+
+1. Open ```about:config```
+
+2. Search for: ```browser.urlbar.scotchBonnet.enableOverride```
+
+3. Change from ```true``` to ```false```
+
+[Article with the fix](https://www.askvg.com/tip-enable-upcoming-address-bar-search-ui-in-firefox-right-now-scotch-bonnet-project/)
 
 </details>
 
 <details>
 
-**<summary> Icons for context menus. </summary>**
+**<summary> Tablet UI </summary>**
 
-https://github.com/black7375/Firefox-UI-Fix
+1. Open ```about:config```
+  
+2. Search for: ```browser.uidensity```
+ 
+3. Set it to: ```1```
 
 </details>
 
