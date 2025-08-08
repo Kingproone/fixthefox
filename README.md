@@ -9,21 +9,9 @@
 
 This takes 1 minute to do and will give ```6,8%``` plus usable space on screen
 
-<details>
-
-<summary> Firefox on second run (on first run the left sidebar is not added), bars take up 10.55% of the screenshot </summary>
-
-![default-ff-on-2nd-open](https://github.com/user-attachments/assets/888c82e0-c4b4-4c7f-a7f4-ea251d649276)
-
-</details>
-
-<details>
-
-<summary> Cleeeeean, bar takes up 3,75% of the screenshot </summary>
-
-![clean-ff](https://github.com/user-attachments/assets/55ec9588-cae9-4350-9205-7ce9f8b02e42)
-
-</details>
+| Firefox on second run (on first run the left sidebar is not added), bars take up ```10.55%``` of the screenshot | Cleeeeean, bar takes up ```3,75%``` of the screenshot |
+| --- | --- |
+| ![default-ff-on-2nd-open](https://github.com/user-attachments/assets/888c82e0-c4b4-4c7f-a7f4-ea251d649276) | ![clean-ff](https://github.com/user-attachments/assets/55ec9588-cae9-4350-9205-7ce9f8b02e42) |
 
 </details>
 
