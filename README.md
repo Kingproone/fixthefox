@@ -106,7 +106,7 @@ This helps me organize my bookmarks a LOT
 NOTES
 
 - llms were used in figuring this out
-- with a cleaned UI, no bottom taskbar and a 1080p screen ```700px``` works great, ymmv, try and see what works best
+- with a cleaned UI, no horizontal taskbar and a 1080p screen ```700px``` works great, ymmv, try and see what works best
 
 | Before | After |
 | --- | --- |
