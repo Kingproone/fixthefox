@@ -21,6 +21,8 @@ This takes 1 minute to do and will give ```6,8%``` plus usable space on screen
 
 https://github.com/black7375/Firefox-UI-Fix
 
+I recommend the Proton style.
+
 </details>
 
 <details>
