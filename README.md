@@ -45,6 +45,8 @@ NOTES:
 
 - The upcoming fix: [wayland pip protocol support](https://bugzilla.mozilla.org/show_bug.cgi?id=1970372).
 
+- Make sure you only have one of these window rules, as plasma won't notify you if you already have one active, leading to conflicts and crashes.
+
 </details>
 
 <details>
@@ -113,6 +115,8 @@ NOTES
 | ![before](https://github.com/user-attachments/assets/dbf32601-370c-4d41-a514-0706658aad4b) | ![after](https://github.com/user-attachments/assets/44fe18a1-2d1a-441b-826a-7a913b9c7016) |
 
 </details>
+
+<!---Placeholder section to copy--->
 
 <details>
 
