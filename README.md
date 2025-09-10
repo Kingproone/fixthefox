@@ -45,7 +45,7 @@ NOTES:
 
 - The upcoming fix: [wayland pip protocol support](https://bugzilla.mozilla.org/show_bug.cgi?id=1970372).
 
-- Make sure you only have one of these window rules, as plasma won't notify you if you already have one active, leading to conflicts and crashes.
+- Make sure you only have one of these window rules, as plasma won't notify you if you already have one active (even if its identical), leading to conflicts and crashes.
 
 </details>
 
