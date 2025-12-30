@@ -5,7 +5,7 @@
 
 <details>
 
-**<summary> Clean up the default UI! </summary>**
+<summary>Clean up the default UI!</summary>
 
 This takes 1 minute to do and will give ```6,8%``` plus usable space on screen
 
@@ -17,7 +17,7 @@ This takes 1 minute to do and will give ```6,8%``` plus usable space on screen
 
 <details>
 
-**<summary> Icons for context menus. </summary>**
+<summary> Icons for context menus. </summary>
 
 https://github.com/black7375/Firefox-UI-Fix
 
@@ -27,7 +27,7 @@ I recommend the Proton style.
 
 <details>
 
-**<summary> Picture in picture window doesn't stay above others on kde. </summary>**
+<summary> Picture in picture window doesn't stay above others on kde. </summary>
 
 1. Right click an open Picture-in-Picture window. In the context menu, select "More Actions" -> "Configure Special Window Settings...".
 
@@ -51,7 +51,7 @@ NOTES:
 
 <details>
 
-**<summary> Remove search icon drop down </summary>**
+<summary> Remove search icon drop down </summary>
 
 It hides the lock and shield icon to check site info
 
@@ -67,7 +67,7 @@ It hides the lock and shield icon to check site info
 
 <details>
 
-**<summary> Tablet UI </summary>**
+<summary> Tablet UI </summary>
 
 1. Open ```about:config```
   
@@ -79,7 +79,7 @@ It hides the lock and shield icon to check site info
 
 <details>
 
-**<summary> Too short bookmark folder selection window </summary>**
+<summary> Too short bookmark folder selection window </summary>
 
 This helps me organize my bookmarks a LOT
 
@@ -120,6 +120,6 @@ NOTES
 
 <details>
 
-<summary>  </summary>
+<summary> placeholder </summary>
 
 </details>
