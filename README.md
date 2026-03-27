@@ -1,7 +1,7 @@
 # Fix The Fox! 🦊
 
 > [!IMPORTANT]
-> Use a fork of firefox that does a lot of privacy/security enhancements out of the box, like [Librewolf](https://librewolf.net/), [Mullvad](https://mullvad.net/en/browser) or [Tor](https://www.torproject.org/download/) for the desktop. [Ironfox](https://gitlab.com/ironfox-oss/IronFox) or [Tor](https://www.torproject.org/download/#android) for Android.
+> Use a fork of Firefox that does a lot of privacy/security enhancements out of the box, like [Librewolf](https://librewolf.net/), [Mullvad](https://mullvad.net/en/browser) or [Tor](https://www.torproject.org/download/) for the desktop. [Ironfox](https://gitlab.com/ironfox-oss/IronFox) or [Tor](https://www.torproject.org/download/#android) for Android.
 
 <details>
 
@@ -29,7 +29,24 @@ I recommend the Proton style.
 
 <summary><b>Picture in picture window doesn't stay above others on kde.</b></summary>
 
-1. Right click an open Picture-in-Picture window. In the context menu, select "More Actions" -> "Configure Special Window Settings...".
+### Plasma [6.5](https://invent.kde.org/plasma/kwin/-/merge_requests/7954)+ & Firefox [141](https://bugzilla.mozilla.org/show_bug.cgi?id=1970372)+
+
+1. Create a shell script in the Plasma autostart env folder, since [PIP is off by default](https://blog.broulik.de/2025/06/pimp-your-clock/):
+```
+mkdir -p ~/.config/plasma-workspace/env/
+echo 'export KWIN_WAYLAND_SUPPORT_XX_PIP_V1=1' > ~/.config/plasma-workspace/env/kwin-pip.sh
+chmod +x ~/.config/plasma-workspace/env/kwin-pip.sh
+```
+
+2. Log out and back in to apply.
+
+> `widget.wayland.experimental.pip.enabled` is on by default in Firefox 149
+
+#### Legacy fix
+
+copy of [the original reddit thread of the fix.](https://www.reddit.com/r/kde/comments/osjt3p/firefox_wayland_pip_workaround_or_how_i_learned/)
+
+1. Right click an open Picture-in-Picture window. In the context menu, select "More Actions" -> "Configure Special Window Settings...". This will populate most of the window settings for you.
 
 2. Click "Add Property..." and select "Window title". The newly added row's text field should read "Picture-in-Picture". Change the dropdown option from "Unimportant" to "Exact Match". (All PiP windows in Firefox use this title and by making it Exact Match the rule shouldn't affect any other Firefox windows.) 
 
@@ -37,15 +54,7 @@ I recommend the Proton style.
 
 4. Click "OK". That's it. No more manually setting Keep Above every time you open a PiP.
 
-NOTES:
-
-- [The original reddit thread of the fix.](https://www.reddit.com/r/kde/comments/osjt3p/firefox_wayland_pip_workaround_or_how_i_learned/)
-
-- For me the "Keep above other windows" line disappeared after setting it and reopening the config window. After going in and out of PiP a few times and redoing the setup it stuck around.
-
-- The upcoming fix: [wayland pip protocol support](https://bugzilla.mozilla.org/show_bug.cgi?id=1970372).
-
-- Make sure you only have one of these window rules, as plasma won't notify you if you already have one active (even if its identical), leading to conflicts and crashes.
+5. Restart your browser
 
 </details>
 
