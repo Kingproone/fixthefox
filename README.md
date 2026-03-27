@@ -7,9 +7,9 @@
 <details>
 <summary><b> Clean up the default UI </b></summary><br />
 
-This takes 1 minute to do and will give ```6,8%``` plus usable space on screen
+This takes 1 minute to do and will give `6,8%` plus usable space on screen
 
-| Firefox on second run (on first run the left sidebar is not added), bars take up ```10.55%``` of the screenshot | Cleeeeean, bar takes up ```3,75%``` of the screenshot |
+| Firefox on second run (on first run the left sidebar is not added), bars take up `10.55%` of the screenshot | Cleeeeean, bar takes up `3,75%` of the screenshot |
 | --- | --- |
 | ![default-ff-on-2nd-open](https://github.com/user-attachments/assets/888c82e0-c4b4-4c7f-a7f4-ea251d649276) | ![clean-ff](https://github.com/user-attachments/assets/55ec9588-cae9-4350-9205-7ce9f8b02e42) |
 </details>
@@ -107,9 +107,9 @@ This helps me organize my bookmarks a LOT
   min-height: 400px !important; /* Adjust this value as needed */
 }
 ```
-4. Restart Firefox
+- with a cleaned UI, no horizontal taskbar and a 1080p screen `700px` works great, ymmv, try and see what works best
 
-> with a cleaned UI, no horizontal taskbar and a 1080p screen `700px` works great, ymmv, try and see what works best
+4. Restart Firefox
 
 | Before | After |
 | --- | --- |
